@@ -21,10 +21,12 @@ function ResultModal({ callback, status, word }) {
           <p className="text-xl">Want to see how this game was made?</p>
         </div>
         <div className="flex items-center w-full justify-center mt-5">
-          <button className="text-black px-8 py-2 text-xl rounded-full flex items-center gap-2 bg-white">
-            <p>Visit Repo</p>
-            <IoLogoGithub />
-          </button>
+          <a href="https://github.com/NikkkhilRam/wordle-clone" target="_blank">
+            <button className="text-black px-8 py-2 text-xl rounded-full flex items-center gap-2 bg-white">
+              <p>Visit Repo</p>
+              <IoLogoGithub />
+            </button>
+          </a>
         </div>
         <div className="h-[1px] mt-10 bg-white"></div>
         <div className="flex flex-col items-center justify-center mt-6">
