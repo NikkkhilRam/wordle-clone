@@ -3,6 +3,7 @@ import wordleLogo from "./assets/Wordle-Logo.jpg";
 import GameBlock from "./components/GameBlock";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { FiGithub } from "react-icons/fi";
+import DeviceIntegration from "./components/DeviceIntegration";
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
       <div className="bg-white w-full text-center text-3xl flex  justify-center items-center font-semibold uppercase absolute">
         <img src={wordleLogo} alt="" className="w-24" />
       </div>
-      <GameBlock />
+      {/* <GameBlock /> */}
+      <DeviceIntegration />
       <div className="bg-[#121214] w-full  flex   justify-between px-6 items-center font-semibold  absolute pb-2">
         <p className="text-white sm:text-base">Made By Nikhil Ramesh</p>
         <div className="flex text-white items-center gap-2">
